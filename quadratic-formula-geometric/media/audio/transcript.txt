@@ -1,0 +1,54 @@
+Hello and welcome.
+In this video we'll be deriving the quadratic formula with a geometric focus.
+Of course naturally we'll have to do some algebra, but I hope that at the end of this
+video, you'll also have a good geometric understanding.
+To start with, we'll be working with the real numbers, or if you want, the complex numbers.
+What this means is that we're going to have all of the coefficients to be real or complex numbers.
+We will not be going into the complexity of this or talk about the Fundamental Theorem of Algebra.
+
+So, let's start. In particular, what is the quadratic formula?
+It's a polynomial where the degree is two.
+The general format is ax^2 + bx + c.
+Note that we can always make polynomials equal to zero.
+
+The goal is to derive the quadratic formula.
+To do this, let's first analyze what the quadratic polynomial represents.
+First, the real number c is just a number.
+It can represent anything: a line, position in space, or area.
+Literally anything, which is the beauty of mathematics.
+In particular, let's just say it's the area of some polygon.
+
+Next, let's look at what bx represents.
+Well, remember that bx is b times x which is a rectangle of length b and width x.
+Now, let's look at the more complicated one, ax^2.
+Recall that every real number, if we square the square root of itself, we get back the number.
+In particular, we have that ax^2 is actually (sqrt{a}x)(sqrt{a}x).
+Which, now we know is a square with sides sqrt{a}x.
+
+Now that we have a geometric understanding of what the quadratic polynomial represents.
+Let's analyze the square that has a side length of x+k.
+That is, (x+k)^2.
+Let's separate the x+k respectively which gives us this partition of the square.
+We now have two squares, one with sides x and the other with sides k, and the two
+rectangles of length k and width x.
+Algebraically, this looks like this.
+
+With this identity, we want to force our quadratic polynomial to mimic this construction.
+So back to our general case, we note that we can always divide by the leading coefficient a
+giving us this new form given a isn't zero.
+Looking at this, we see clearly that the constant c/a isn't the square of the second coefficient.
+Thus, we'll simply move it to the other side of the equation.
+This is where we get to the tricky part.
+The identity that we looked at before, we saw that the second coefficient must multiply by 2.
+We want to artificially add this two in and we do this by multiplying by 1.
+Note that any number divided by itself is 1, so actually, we are multiplying it by 2/2.
+Thus, our form now looks like this.
+Geometrically, what we have now is a square with sides x and two rectangles with length b/2a and width x.
+Here we want to make this shape into a square, that is, we complete the square.
+Thus, we add in the square with sides b/2a.
+Algebraically, we have this.
+
+Now that we have a square, we can represent our polynomial as square.
+From here, we now start doing some good ol' algebra.
+First we reduce the RHS, take the square root and then isolate the x.
+And voila we are done.
